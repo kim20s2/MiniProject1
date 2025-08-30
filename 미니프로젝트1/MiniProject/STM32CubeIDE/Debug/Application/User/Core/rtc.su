@@ -1,0 +1,4 @@
+C:/Users/kim20/Desktop/MiniProject발표자료/MiniProject/Core/Src/rtc.c:31:6:MX_RTC_Init	8	static
+C:/Users/kim20/Desktop/MiniProject발표자료/MiniProject/Core/Src/rtc.c:61:6:HAL_RTC_MspInit	40	static
+C:/Users/kim20/Desktop/MiniProject발표자료/MiniProject/Core/Src/rtc.c:88:6:HAL_RTC_MspDeInit	16	static
+C:/Users/kim20/Desktop/MiniProject발표자료/MiniProject/Core/Src/rtc.c:105:6:Parse_CompileTime_And_Set_RTC	128	static

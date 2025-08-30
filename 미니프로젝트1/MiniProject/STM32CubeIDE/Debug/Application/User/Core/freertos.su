@@ -1,0 +1,7 @@
+C:/Users/kim20/Desktop/MiniProject발표자료/MiniProject/Core/Src/freertos.c:173:6:MX_FREERTOS_Init	8	static
+C:/Users/kim20/Desktop/MiniProject발표자료/MiniProject/Core/Src/freertos.c:238:6:StartTimeTask	112	static
+C:/Users/kim20/Desktop/MiniProject발표자료/MiniProject/Core/Src/freertos.c:282:6:StartAlarmTask	40	static
+C:/Users/kim20/Desktop/MiniProject발표자료/MiniProject/Core/Src/freertos.c:325:6:StartIRTask	144	static
+C:/Users/kim20/Desktop/MiniProject발표자료/MiniProject/Core/Src/freertos.c:566:6:StartUIStateTask	96	static
+C:/Users/kim20/Desktop/MiniProject발표자료/MiniProject/Core/Src/freertos.c:704:6:StartLCDTask	48	static
+C:/Users/kim20/Desktop/MiniProject발표자료/MiniProject/Core/Src/freertos.c:732:6:StartNTPTask	16	static

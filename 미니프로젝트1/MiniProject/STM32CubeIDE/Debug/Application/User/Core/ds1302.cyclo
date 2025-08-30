@@ -1,0 +1,11 @@
+../Application/User/Core/ds1302.c:5:13:DS1302_IO_SetMode_Input	1
+../Application/User/Core/ds1302.c:14:13:DS1302_IO_SetMode_Output	1
+../Application/User/Core/ds1302.c:25:13:DS1302_WriteByte	2
+../Application/User/Core/ds1302.c:36:16:DS1302_ReadByte	3
+../Application/User/Core/ds1302.c:51:13:DS1302_WriteRegister	1
+../Application/User/Core/ds1302.c:58:16:DS1302_ReadRegister	1
+../Application/User/Core/ds1302.c:67:16:bcd2dec	1
+../Application/User/Core/ds1302.c:71:16:dec2bcd	1
+../Application/User/Core/ds1302.c:75:6:DS1302_Init	1
+../Application/User/Core/ds1302.c:80:6:DS1302_SetTime	1
+../Application/User/Core/ds1302.c:90:6:DS1302_GetTime	1
