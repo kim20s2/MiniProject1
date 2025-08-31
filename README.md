@@ -11,13 +11,20 @@ FreeRTOS 기반 멀티태스킹 구조를 적용해 시간 표시, 알람 제어
 
 ---
 
-## 🛠 사용 부품
+## 🛠 개발 환경 및 도구
+### 🔹 Hardware
 - STM32 Nucleo-F411RE (MCU, FreeRTOS 구동, 메인 제어)  
 - DS1302 RTC 모듈 (전원 차단 시 시간 백업 & 복원)  
 - ESP-01 WiFi 모듈 (NTP 서버 통한 시간 동기화)  
 - LCD1602 I2C 모듈 (시간, 알람, 상태 표시 UI)  
 - IR 리모컨 + 적외선 수신기 (시간/알람 원격 제어)  
 - Buzzer + LED (알람 출력)  
+
+### 🔹 Software
+- STM32CubeIDE (코드 작성 및 디버깅)
+- FreeRTOS (멀티태스킹 스케줄러)
+- HAL Driver (STM32 주변장치 제어)
+- C 언어 (펌웨어 개발)
 
 ---
 
