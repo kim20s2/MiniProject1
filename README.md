@@ -59,6 +59,10 @@ C / STM32 / FreeRTOS / RTC / UART / I2C / GPIO / WiFi / IR Remote / NTP
 
 ---
 
+## 태스크 구조
+<img width="641" height="361" alt="image" src="https://github.com/user-attachments/assets/53322dc1-e79d-4ff4-bcd4-f284debe420e" />
+
+
 ## 📸 시스템 블록 다이어그램
 ```plaintext
         +-------------------+
