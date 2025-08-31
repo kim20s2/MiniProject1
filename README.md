@@ -90,9 +90,32 @@ C / STM32 / FreeRTOS / RTC / UART / I2C / GPIO / WiFi / IR Remote / NTP
 
 ---
 
+## FreeRTOS기반 Task 구조
+<img width="641" height="361" alt="image" src="https://github.com/user-attachments/assets/53322dc1-e79d-4ff4-bcd4-f284debe420e" />
+
+
 ## 📸 시스템 블록 다이어그램
-![System Block Diagram](./images/block_diagram.png)
-
----
-
-## 📂 저장소 구조 예시
+```plaintext
+        +-------------------+
+        |     NTP Server    |
+        +---------+---------+
+                  |
+              WiFi Sync
+                  |
+        +---------v---------+
+        |   ESP-01 + RTC    |
+        +---------+---------+
+                  |
+        +---------v---------+
+        |     STM32F411     |
+        |    (FreeRTOS)     |
+        +---+-----------+---+
+            |           |
+        LCD1602     IR Remote
+            |           |
+          Time      Time+Alarm
+            |        Control
+       +----v----+
+       |  Alarm  |
+       | LED+BZR |
+       +---------+
