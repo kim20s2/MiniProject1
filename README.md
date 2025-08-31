@@ -1,4 +1,4 @@
-# 🕒 Mini Project 1 – Remote Controlled Digital Alarm Clock
+# 🕒 Mini Project 1 – 원격 제어 디지털 시계
 
 ## 📌 프로젝트 개요
 STM32 보드와 아두이노 모듈을 활용하여 **원격 제어 및 NTP 시간 동기화 기능**을 갖춘 디지털 알람 시계를 구현한 프로젝트입니다.  
