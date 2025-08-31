@@ -58,12 +58,12 @@ C / STM32 / FreeRTOS / RTC / UART / I2C / GPIO / WiFi / IR Remote / NTP
 
 ## 🔄 펌웨어 동작 원리
 - **FreeRTOS 기반 Task 구조**
-  - `TimeTask` : 내장 RTC를 polling 방식으로 1초 단위 시간 갱신  
-  - `LCDTask` : Queue & Mutex 기반, 다른 태스크로부터 받은 문자열 출력  
-  - `AlarmTask` : 현재 시간과 알람 시간 비교 → 알람 조건 시 부저/LED 제어  
-  - `IRTask` : IR 수신기 인터럽트 기반, 버튼별 상태 전환 처리  
-  - `UIStateTask` : 현재 상태/알람 설정/복원/동기화 실패 등을 LCD 2행에 표시  
-  - `NTPTask` : WiFi 모듈(ESP-01)로 NTP 서버와 통신, 시간 업데이트  
+  - **TimeTask** : STM32 RTC 기반 시간 갱신 (Polling), DS1302 백업 연동  
+  - **AlarmTask** : 현재 시간 vs 알람 시간 비교 → Buzzer & LED 알림  
+  - **LCDTask** : Queue + Mutex로 안전하게 LCD 출력  
+  - **IRTask** : NEC 프로토콜 IR 수신, 시간/알람 설정 및 모드 전환 처리  
+  - **UIStateTask** : LCD 2행에 상태(알람/설정중/복원/동기화 실패 등) 표시  
+  - **NTPTask** : ESP-01 WiFi 모듈로 NTP 서버 동기화 후 RTC/DS1302 보정  
 
 - **상태 전이 흐름**
   - IDLE 모드 → 시간 설정 모드 / 알람 설정 모드 전환 (리모컨 입력)  
