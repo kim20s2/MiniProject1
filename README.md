@@ -20,7 +20,7 @@ STM32 보드와 아두이노 모듈을 활용하여 **원격 제어 및 NTP 시�
 ---
 
 ## 🛠️ 개발 환경 및 도구
-- **Hardware** : STM32 Nucleo-F411RE, DS1302 RTC, ESP-01 WiFi, LCD1602 (I2C), IR Receiver, Remote, Buzzer, LED  
+- **Hardware** : STM32 Nucleo-F411RE, DS1302 RTC, ESP-01 WiFi, LCD1602 (I2C), IR Receiver, Remote Controller, Buzzer, LED  
 - **Software** : STM32CubeIDE, FreeRTOS, C (HAL Driver)  
 
 ---
