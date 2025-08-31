@@ -97,7 +97,7 @@ C / STM32 / FreeRTOS / RTC / UART / I2C / GPIO / WiFi / IR Remote / NTP
 
 ---
 
-## FreeRTOS기반 Task 구조
+## 🧩 FreeRTOS 기반 Task 구조
 <img width="641" height="361" alt="image" src="https://github.com/user-attachments/assets/53322dc1-e79d-4ff4-bcd4-f284debe420e" />
 
 
