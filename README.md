@@ -1,4 +1,4 @@
-# 🕒 Mini Project 1 – Remote Controlled Digital Alarm Clock
+# 🕒 Mini Project 1 – 디지털 원격 제어 시계
 
 ## 📌 프로젝트 개요
 STM32 보드, DS1302 RTC, ESP-01 WiFi 모듈, LCD1602, IR 리모컨 등을 이용해 **시간 동기화·백업·원격 제어 기능**을 갖춘 디지털 알람 시계를 구현했습니다.  
